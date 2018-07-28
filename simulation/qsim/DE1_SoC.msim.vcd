@@ -1,0 +1,200 @@
+$comment
+	File created using the following command:
+		vcd file DE1_SoC.msim.vcd -direction
+$end
+$date
+	Wed Feb 25 17:05:50 2015
+$end
+$version
+	ModelSim Version 10.1e
+$end
+$timescale
+	1ps
+$end
+$scope module comparator32_vlg_vec_tst $end
+$var reg 32 ! D1 [31:0] $end
+$var reg 32 " D2 [31:0] $end
+$var wire 1 # Z $end
+$var wire 1 $ sampler $end
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + Z~output_o $end
+$var wire 1 , D1[9]~input_o $end
+$var wire 1 - D2[9]~input_o $end
+$var wire 1 . D1[10]~input_o $end
+$var wire 1 / D2[10]~input_o $end
+$var wire 1 0 D1[11]~input_o $end
+$var wire 1 1 D2[11]~input_o $end
+$var wire 1 2 comb~0_combout $end
+$var wire 1 3 D1[12]~input_o $end
+$var wire 1 4 D2[12]~input_o $end
+$var wire 1 5 D1[13]~input_o $end
+$var wire 1 6 D2[13]~input_o $end
+$var wire 1 7 D1[14]~input_o $end
+$var wire 1 8 D2[14]~input_o $end
+$var wire 1 9 comb~1_combout $end
+$var wire 1 : D1[15]~input_o $end
+$var wire 1 ; D2[15]~input_o $end
+$var wire 1 < D1[16]~input_o $end
+$var wire 1 = D2[16]~input_o $end
+$var wire 1 > D1[17]~input_o $end
+$var wire 1 ? D2[17]~input_o $end
+$var wire 1 @ comb~2_combout $end
+$var wire 1 A D1[5]~input_o $end
+$var wire 1 B D2[5]~input_o $end
+$var wire 1 C D1[0]~input_o $end
+$var wire 1 D D2[0]~input_o $end
+$var wire 1 E D1[1]~input_o $end
+$var wire 1 F D2[1]~input_o $end
+$var wire 1 G D1[2]~input_o $end
+$var wire 1 H D2[2]~input_o $end
+$var wire 1 I comb~3_combout $end
+$var wire 1 J D1[3]~input_o $end
+$var wire 1 K D2[3]~input_o $end
+$var wire 1 L D1[4]~input_o $end
+$var wire 1 M D2[4]~input_o $end
+$var wire 1 N comb~4_combout $end
+$var wire 1 O D1[6]~input_o $end
+$var wire 1 P D2[6]~input_o $end
+$var wire 1 Q D1[7]~input_o $end
+$var wire 1 R D2[7]~input_o $end
+$var wire 1 S D1[8]~input_o $end
+$var wire 1 T D2[8]~input_o $end
+$var wire 1 U comb~5_combout $end
+$var wire 1 V comb~6_combout $end
+$var wire 1 W D1[18]~input_o $end
+$var wire 1 X D2[18]~input_o $end
+$var wire 1 Y D1[19]~input_o $end
+$var wire 1 Z D2[19]~input_o $end
+$var wire 1 [ D1[20]~input_o $end
+$var wire 1 \ D2[20]~input_o $end
+$var wire 1 ] comb~7_combout $end
+$var wire 1 ^ D1[21]~input_o $end
+$var wire 1 _ D2[21]~input_o $end
+$var wire 1 ` D1[22]~input_o $end
+$var wire 1 a D2[22]~input_o $end
+$var wire 1 b D1[23]~input_o $end
+$var wire 1 c D2[23]~input_o $end
+$var wire 1 d comb~8_combout $end
+$var wire 1 e D1[24]~input_o $end
+$var wire 1 f D2[24]~input_o $end
+$var wire 1 g D1[25]~input_o $end
+$var wire 1 h D2[25]~input_o $end
+$var wire 1 i D1[26]~input_o $end
+$var wire 1 j D2[26]~input_o $end
+$var wire 1 k comb~9_combout $end
+$var wire 1 l D1[27]~input_o $end
+$var wire 1 m D2[27]~input_o $end
+$var wire 1 n D1[28]~input_o $end
+$var wire 1 o D2[28]~input_o $end
+$var wire 1 p D1[29]~input_o $end
+$var wire 1 q D2[29]~input_o $end
+$var wire 1 r comb~10_combout $end
+$var wire 1 s D1[30]~input_o $end
+$var wire 1 t D2[30]~input_o $end
+$var wire 1 u D1[31]~input_o $end
+$var wire 1 v D2[31]~input_o $end
+$var wire 1 w comb~11_combout $end
+$var wire 1 x comb~12_combout $end
+$var wire 1 y comb~13_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+1#
+x$
+0%
+1&
+x'
+1(
+1)
+1*
+1+
+0,
+0-
+0.
+0/
+00
+01
+12
+03
+04
+05
+06
+07
+08
+19
+0:
+0;
+0<
+0=
+0>
+0?
+1@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+1I
+0J
+0K
+0L
+0M
+1N
+0O
+0P
+0Q
+0R
+0S
+0T
+1U
+1V
+0W
+0X
+0Y
+0Z
+0[
+0\
+1]
+0^
+0_
+0`
+0a
+0b
+0c
+1d
+0e
+0f
+0g
+0h
+0i
+0j
+1k
+0l
+0m
+0n
+0o
+0p
+0q
+1r
+0s
+0t
+0u
+0v
+1w
+1x
+1y
+$end
+#1000000
